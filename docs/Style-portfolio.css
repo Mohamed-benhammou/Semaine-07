@@ -214,6 +214,30 @@ body {
 #body_a-propos {
   background-color: #bbe1fa;
 }
+.span-apropos {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: normal;
+}
+.apropos {
+  display: flex;
+  width: 50%;
+  height: 40vh;
+}
+.apropos p {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  height: 100%;
+}
+.apropos-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 88vh;
+}
 /* Contact */
 #my-form {
   display: flex;
@@ -243,12 +267,12 @@ body {
 }
 input,
 textarea {
-  background: #d6d6d6;
+  background: white;
   border-radius: 8px;
   border: none;
   outline: none;
   font-size: 16px;
-  color: black;
+  color: #1b262c;
   font-weight: normal;
   font-family: 'Poppins', sans-serif;
 }
@@ -290,6 +314,8 @@ label {
 }
 .contact_content p {
   color: #bbe1fa;
+  display: flex;
+  flex-direction: column;
 }
 .comment-form-container {
   display: flex;
@@ -297,7 +323,10 @@ label {
   width: 50%;
   align-items: center;
 }
-
+.h1_contact {
+  font-size: 30px;
+  font-weight: bold;
+}
 .menu-item-container {
   display: flex;
 }
