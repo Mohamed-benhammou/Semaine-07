@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
-    <title>Accueil</title>
+    <title>Contact</title>
   </head>
   <body>
     <div class="main-nav">
@@ -79,30 +79,27 @@
       </li>
     </ul>
     <div id="particles-js">
-      <div class="accueil-container">
-        <div class="content-container">
-          <p class="primary-info">
-            <span>Bonjour !</span>
-            Je m'appelle Mohamed.
+      <div class="wrapper">
+        <div class="contact_content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, sit
+            cupiditate assumenda quos tempora ab, rem a saepe dignissimos est
+            nulla voluptas rerum consequuntur at blanditiis voluptate modi ipsa
+            atque!
           </p>
-          <p class="secondary-info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-            eaque provident, officia adipisci eos ducimus magnam aspernatur
-            dolorem amet ipsum tenetur iste perferendis autem impedit et esse
-            nihil illo. Sunt??
-          </p>
-          <button class="about-button">
-            <a href="a_propos.html">
-              A propos
-            </a>
-          </button>
         </div>
-
-        <img
-          class="photo-de-profil"
-          src="assets/photo-profile.jpg"
-          alt="Photo"
-        />
+        <div class="comment-form-container">
+          <div class="form-container">
+            <form id="my-form">
+              <label for="auteur">Nom:</label>
+              <input type="text" id="auteur" />
+              <label for="comment">Commentaire:</label>
+              <textarea id="comment"></textarea>
+            </form>
+            <button type="submit" name="push" id="submit-btn">Envoyé</button>
+          </div>
+          <div id="comments-container"></div>
+        </div>
       </div>
     </div>
     <script src="./particles.js"></script>
